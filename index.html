@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>DevSetup Pro</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="navbar">
+
+<h2>DevSetup</h2>
+
+<button onclick="toggleTheme()">Toggle Theme</button>
+
+</div>
+
+<div class="container">
+
+<h1>One-Click Developer Environment Generator</h1>
+
+<p>Create a ready-to-use project setup instantly.</p>
+
+<div class="card">
+
+<input id="projectName" placeholder="Project Name">
+
+<select id="template">
+
+<option value="web">Web App (HTML/CSS/JS)</option>
+<option value="node">Node.js Project</option>
+<option value="python">Python CLI Tool</option>
+<option value="portfolio">Developer Portfolio</option>
+
+</select>
+
+<input id="customFolder" placeholder="Custom folder (optional)">
+<button onclick="addFolder()">Add Folder</button>
+
+<ul id="folderList"></ul>
+
+<button class="generate" onclick="generateProject()">
+Generate & Download
+</button>
+
+</div>
+
+<div id="preview"></div>
+
+</div>
+
+<script src="first.js"></script>
+
+</body>
+</html>
