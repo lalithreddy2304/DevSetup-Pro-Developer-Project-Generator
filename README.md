@@ -5,11 +5,17 @@ Instead of manually creating folders and files every time, DevSetup Pro automati
 
 
 🚀 Features
+
 ⚡ Instant project structure generation
+
 📁 Pre-built folder organization
+
 🌐 HTML, CSS, JavaScript starter templates
+
 🧹 Clean and beginner-friendly setup
+
 💻 Works directly in the browser
+
 ⏱ Saves time during project initialization
 
 
